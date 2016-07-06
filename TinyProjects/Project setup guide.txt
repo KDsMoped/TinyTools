@@ -1,0 +1,8 @@
+-------IN PROGRESS!!!-------
+
+
+1. Create a new Jucer Project as Audio Plug-In
+
+2. Choose Modules from our Repo (../../Framework/JUCE/Modules)
+
+3. Change VST (and VST3) -path for each target to "../../Framework/SDKs/VST3 SDK" if needed
