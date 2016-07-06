@@ -2223,19 +2223,19 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\DSPLib\Biquad.h">
+    <ClInclude Include="..\..\..\..\TinyDSPLib\Biquad.h">
       <Filter>Test_NewProject\Source\DSPLib</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\DSPLib\Compressor.h">
+    <ClInclude Include="..\..\..\..\TinyDSPLib\Compressor.h">
       <Filter>Test_NewProject\Source\DSPLib</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\DSPLib\dsplib.h">
+    <ClInclude Include="..\..\..\..\TinyDSPLib\dsplib.h">
       <Filter>Test_NewProject\Source\DSPLib</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\DSPLib\PeakDetector.h">
+    <ClInclude Include="..\..\..\..\TinyDSPLib\PeakDetector.h">
       <Filter>Test_NewProject\Source\DSPLib</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\DSPLib\SignalProcessingHelpers.h">
+    <ClInclude Include="..\..\..\..\TinyDSPLib\SignalProcessingHelpers.h">
       <Filter>Test_NewProject\Source\DSPLib</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\PluginProcessor.h">
@@ -2696,6 +2696,9 @@
     </ClInclude>
     <ClInclude Include="..\..\..\..\Framework\JUCE\modules\juce_audio_formats\juce_audio_formats.h">
       <Filter>Juce Modules\juce_audio_formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Framework\JUCE\modules\juce_audio_plugin_client\AAX\juce_AAX_Modifier_Injector.h">
+      <Filter>Juce Modules\juce_audio_plugin_client\AAX</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\Framework\JUCE\modules\juce_audio_plugin_client\AU\CoreAudioUtilityClasses\AUBase.h">
       <Filter>Juce Modules\juce_audio_plugin_client\AU\CoreAudioUtilityClasses</Filter>
@@ -4184,8 +4187,11 @@
     <None Include="..\..\..\..\Framework\JUCE\modules\juce_audio_plugin_client\AU\AUResources.r">
       <Filter>Juce Modules\juce_audio_plugin_client\AU</Filter>
     </None>
-    <None Include="..\..\..\..\Framework\JUCE\modules\juce_audio_plugin_client\AU\juce_RezResources_AU.r">
-      <Filter>Juce Modules\juce_audio_plugin_client\AU</Filter>
+    <None Include="..\..\..\..\Framework\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_AU.r">
+      <Filter>Juce Modules\juce_audio_plugin_client</Filter>
+    </None>
+    <None Include="..\..\..\..\Framework\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_RTAS.r">
+      <Filter>Juce Modules\juce_audio_plugin_client</Filter>
     </None>
     <None Include="..\..\..\..\Framework\JUCE\modules\juce_graphics\image_formats\jpglib\changes to libjpeg for JUCE.txt">
       <Filter>Juce Modules\juce_graphics\image_formats\jpglib</Filter>

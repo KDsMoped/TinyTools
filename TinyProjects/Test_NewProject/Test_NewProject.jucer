@@ -9,16 +9,16 @@
               pluginProducesMidiOut="0" pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0"
               pluginAUExportPrefix="Test_NewProjectAU" pluginRTASCategory=""
               aaxIdentifier="com.yourcompany.Test_NewProject" pluginAAXCategory="AAX_ePlugInCategory_Dynamics"
-              jucerVersion="4.2.1">
+              jucerVersion="4.2.3">
   <MAINGROUP id="Uiswj6" name="Test_NewProject">
     <GROUP id="{91574DFC-29BD-1D72-B8E9-FBDC329E26BD}" name="Source">
       <GROUP id="{CDB79DEC-93D9-9A8A-CABE-5763337A3895}" name="DSPLib">
-        <FILE id="XM4fzQ" name="Biquad.h" compile="0" resource="0" file="../../DSPLib/Biquad.h"/>
-        <FILE id="yFHwGl" name="Compressor.h" compile="0" resource="0" file="../../DSPLib/Compressor.h"/>
-        <FILE id="pFJXW3" name="dsplib.h" compile="0" resource="0" file="../../DSPLib/dsplib.h"/>
-        <FILE id="m9UoTS" name="PeakDetector.h" compile="0" resource="0" file="../../DSPLib/PeakDetector.h"/>
-        <FILE id="pkj5D2" name="SignalProcessingHelpers.h" compile="0" resource="0"
-              file="../../DSPLib/SignalProcessingHelpers.h"/>
+        <FILE id="VqXHF8" name="Biquad.h" compile="0" resource="0" file="../../TinyDSPLib/Biquad.h"/>
+        <FILE id="oi6FOk" name="Compressor.h" compile="0" resource="0" file="../../TinyDSPLib/Compressor.h"/>
+        <FILE id="oEPgzc" name="dsplib.h" compile="0" resource="0" file="../../TinyDSPLib/dsplib.h"/>
+        <FILE id="kSbDUU" name="PeakDetector.h" compile="0" resource="0" file="../../TinyDSPLib/PeakDetector.h"/>
+        <FILE id="p3fANo" name="SignalProcessingHelpers.h" compile="0" resource="0"
+              file="../../TinyDSPLib/SignalProcessingHelpers.h"/>
       </GROUP>
       <FILE id="Me7fSe" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
@@ -56,9 +56,9 @@
             vst3Folder="" externalLibraries="">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
-                       isDebug="1" optimisation="1" targetName="Test_NewProject" headerPath="../../../../DSPLib/"/>
+                       isDebug="1" optimisation="1" targetName="Test_NewProject" headerPath="../../../../TinyDSPLib/"/>
         <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
-                       isDebug="0" optimisation="3" targetName="Test_NewProject" headerPath="../../../../DSPLib/"/>
+                       isDebug="0" optimisation="3" targetName="Test_NewProject" headerPath="../../../../TinyDSPLib/"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_video" path="../../Framework/JUCE/modules"/>
