@@ -12,6 +12,14 @@
               jucerVersion="4.2.1">
   <MAINGROUP id="Uiswj6" name="Test_NewProject">
     <GROUP id="{91574DFC-29BD-1D72-B8E9-FBDC329E26BD}" name="Source">
+      <GROUP id="{CDB79DEC-93D9-9A8A-CABE-5763337A3895}" name="DSPLib">
+        <FILE id="XM4fzQ" name="Biquad.h" compile="0" resource="0" file="../../DSPLib/Biquad.h"/>
+        <FILE id="yFHwGl" name="Compressor.h" compile="0" resource="0" file="../../DSPLib/Compressor.h"/>
+        <FILE id="pFJXW3" name="dsplib.h" compile="0" resource="0" file="../../DSPLib/dsplib.h"/>
+        <FILE id="m9UoTS" name="PeakDetector.h" compile="0" resource="0" file="../../DSPLib/PeakDetector.h"/>
+        <FILE id="pkj5D2" name="SignalProcessingHelpers.h" compile="0" resource="0"
+              file="../../DSPLib/SignalProcessingHelpers.h"/>
+      </GROUP>
       <FILE id="Me7fSe" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="TvpFIo" name="PluginProcessor.h" compile="0" resource="0"
@@ -44,38 +52,13 @@
         <MODULEPATH id="juce_audio_plugin_client" path="../../Framework/JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_IPHONE>
-    <VS2015 targetFolder="Builds/VisualStudio2015" vstFolder="../../Framework/SDKs/VST3 SDK"
-            vst3Folder="">
-      <CONFIGURATIONS>
-        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
-                       isDebug="1" optimisation="1" targetName="Test_NewProject"/>
-        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
-                       isDebug="0" optimisation="3" targetName="Test_NewProject"/>
-      </CONFIGURATIONS>
-      <MODULEPATHS>
-        <MODULEPATH id="juce_core" path="../../Framework/JUCE/modules"/>
-        <MODULEPATH id="juce_events" path="../../Framework/JUCE/modules"/>
-        <MODULEPATH id="juce_graphics" path="../../Framework/JUCE/modules"/>
-        <MODULEPATH id="juce_data_structures" path="../../Framework/JUCE/modules"/>
-        <MODULEPATH id="juce_gui_basics" path="../../Framework/JUCE/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="../../Framework/JUCE/modules"/>
-        <MODULEPATH id="juce_cryptography" path="../../Framework/JUCE/modules"/>
-        <MODULEPATH id="juce_video" path="../../Framework/JUCE/modules"/>
-        <MODULEPATH id="juce_opengl" path="../../Framework/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_basics" path="../../Framework/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_devices" path="../../Framework/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_formats" path="../../Framework/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_processors" path="../../Framework/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_plugin_client" path="../../Framework/JUCE/modules"/>
-      </MODULEPATHS>
-    </VS2015>
     <VS2013 targetFolder="Builds/VisualStudio2013" vstFolder="../../Framework/SDKs/VST3 SDK"
-            vst3Folder="">
+            vst3Folder="" externalLibraries="">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
-                       isDebug="1" optimisation="1" targetName="Test_NewProject"/>
+                       isDebug="1" optimisation="1" targetName="Test_NewProject" headerPath="../../../../DSPLib/"/>
         <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
-                       isDebug="0" optimisation="3" targetName="Test_NewProject"/>
+                       isDebug="0" optimisation="3" targetName="Test_NewProject" headerPath="../../../../DSPLib/"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_video" path="../../Framework/JUCE/modules"/>

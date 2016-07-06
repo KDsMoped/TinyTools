@@ -10,7 +10,7 @@
 
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
-
+#include "DSPLib.h"
 
 //==============================================================================
 Test_newProjectAudioProcessor::Test_newProjectAudioProcessor()
@@ -130,6 +130,9 @@ void Test_newProjectAudioProcessor::processBlock (AudioSampleBuffer& buffer, Mid
     // audio processing...
     for (int channel = 0; channel < totalNumInputChannels; ++channel)
     {
+		// Testing a function from DSPLib
+		float i = convertDBtoFloat(0);
+		
         float* channelData = buffer.getWritePointer (channel);
 
         // ..do something to the data...

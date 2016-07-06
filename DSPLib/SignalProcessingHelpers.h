@@ -30,18 +30,15 @@
 #ifndef SIGNALPROCESSINGHELPERS_H_INCLUDED
 #define SIGNALPROCESSINGHELPERS_H_INCLUDED
 
-
-
 //==============================================================================
-
 
 
 float convertDBtoFloat(float dbValue) {
 	return pow(10, dbValue / 20);
 }
 
-float convertFloattoDB(float floatValue) {
-	return 20 * log(floatValue);
+float convertFloattoDB(float value) {
+	return 20 * log(value);
 }
 
 /**

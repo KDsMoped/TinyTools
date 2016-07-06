@@ -8,6 +8,9 @@
     <Filter Include="Test_NewProject\Source">
       <UniqueIdentifier>{03A5216D-FB81-7390-EAD2-E0390283C3AC}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Test_NewProject\Source\DSPLib">
+      <UniqueIdentifier>{CBAD8324-B2E9-D7A9-E828-F75BA8059507}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Juce Modules">
       <UniqueIdentifier>{422C46B7-0467-2DB0-BF3C-16DFCAFD69AC}</UniqueIdentifier>
     </Filter>
@@ -2220,6 +2223,21 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\DSPLib\Biquad.h">
+      <Filter>Test_NewProject\Source\DSPLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\DSPLib\Compressor.h">
+      <Filter>Test_NewProject\Source\DSPLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\DSPLib\dsplib.h">
+      <Filter>Test_NewProject\Source\DSPLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\DSPLib\PeakDetector.h">
+      <Filter>Test_NewProject\Source\DSPLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\DSPLib\SignalProcessingHelpers.h">
+      <Filter>Test_NewProject\Source\DSPLib</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\PluginProcessor.h">
       <Filter>Test_NewProject\Source</Filter>
     </ClInclude>
